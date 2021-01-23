@@ -1,11 +1,55 @@
 .header {
+  padding: 60px 0 222px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.menu {
+  margin-right: 190px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+  }
+
+  &__link {
+    font-size: 15px;
+    text-transform: uppercase;
+  }
 
 }
 
 .user-nav {
+
+  &__link {
+    background-color: #efefef;
+    padding: 17px 12px 11px 12px;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: $accent-color;
+      &:hover .user-nav__icon {
+        transform: scale(1.1);
+      }
+    }   
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
   &__icon {
-   path {
-     color: aqua;
-   }
+    width: 25px;
+    height: 25px;
+    transition: transform 0.5s;
   }
 }

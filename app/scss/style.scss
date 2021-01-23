@@ -10,3 +10,9 @@
 
 @import "components/header";
 
+
+.logo {
+  &__img {
+    max-height: 25px;
+  }
+}
