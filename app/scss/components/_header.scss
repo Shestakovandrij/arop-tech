@@ -5,6 +5,42 @@
     display: flex;
     justify-content: space-between;
   }
+
+  &__bottom {
+    display: flex;
+  }
+
+  &__content {
+    
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+
+  &__desc {
+    line-height: 1.6;
+    max-width: 386px;
+    margin-bottom: 69px;
+  }
+
+  &__review {
+    display: flex;
+    margin-top: 195px;
+    max-width: 830px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: $white-color;
+  }
+
+  &__review-content {
+    padding: 24px 92px 45px 40px;
+  }
+
+  &__author {
+    margin-bottom: 25px;
+  }
 }
 
 .menu {
