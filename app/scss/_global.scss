@@ -35,10 +35,31 @@ body {
   line-height: 1.1;
   @extend %monserrat-900;
   max-width: 652px;
+  position: relative;
 
-  &--lg {
+  &::before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 10px;
+    background-color: $accent-color;
+    left: 0;
+    top: -51px;
+  }
+
+  &-lg {
     font-size: 35px;
     @extend %monserrat-800;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 10px;
+      background-color: $accent-color;
+      left: 0;
+      top: -51px;
+    }
   }
 
   // @include r(768) {
