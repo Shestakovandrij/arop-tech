@@ -1,5 +1,5 @@
 .advantages {
-  padding: 62px 0 300px;
+  padding: 62px 0 150px;
 
   &__inner {
     display: flex;
@@ -50,5 +50,85 @@
 
   &__desc {
     opacity: 0.8;
+  }
+}
+
+.about {
+  padding: 150px 0 131px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content {
+    margin-right: 137px;
+    max-width: 791px;
+    width: 100%;
+  }
+
+  &__img {
+    max-width: 692px;
+    width: 100%;
+    max-height: 876px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+  }
+
+  &__title {
+    position: relative;
+    max-width: 791px;
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 42px;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 6px;
+      background-color: #8B6CCA;
+      left: 3px;
+      top: -42px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 99px;
+    padding-left: 5px;
+    max-width: 287px;
+    line-height: 1.6;
+  }
+
+  &__btn {
+    color: $accent-color;
+    position: relative;
+    padding-right: 26px;
+    padding-left: 5px;
+
+    &::after {
+      position: absolute;
+      content: url(../images/icons/arrow.svg);
+      right: 0;
+      top: 0;
+    }
+  }
+
+  &__content-item {
+    margin-top: 172px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  &__item {
+    margin-bottom: 250px;
+  }
+
+  &__desc {
+    max-width: 396px;
   }
 }
