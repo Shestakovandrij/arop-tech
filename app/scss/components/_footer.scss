@@ -1,0 +1,57 @@
+.footer {
+  padding: 160px 0 69px;
+  background-color: #F7F8F9;
+  margin-top: -196px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__social {
+    align-self: flex-end;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__icon {
+    width: 15px;
+    height: 13px;
+  }
+
+  &__copy {
+    margin-right: 100px;
+
+  }
+
+  &__logo {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-size: 15px;
+    margin-bottom: 30px;
+    max-width: 242px;
+
+  }
+
+  &__links {
+    display: flex;
+  }
+
+  &__copy-link {
+    font-size: 15px;
+
+    &:not(:last-child) {
+      margin-right: 33px;
+    }
+  }
+}

@@ -54,7 +54,7 @@
 }
 
 .about {
-  padding: 150px 0 131px;
+  padding: 150px 0 0;
 
   &__inner {
     display: flex;
@@ -130,5 +130,53 @@
 
   &__desc {
     max-width: 396px;
+  }
+}
+
+.order {
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin: 50px 0 0;
+  background-size: 51%;
+  padding-bottom: 250px;
+  position: relative;
+  z-index: 1;
+
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__left {
+    max-width: 980px;
+  }
+
+  &__title {
+    font-size: 66px;
+    color: #fff;
+    @extend %monserrat-800;
+    margin-bottom: 25px;
+    margin-top: 35px;
+  }
+
+  &__desc {
+    max-width: 254px;
+    color: #fff;
+  }
+
+  &__right {
+    margin-top: 50px;
+  }
+
+  &__title-lg {
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    margin-bottom: 75px;
+    max-width: 244px;
+    line-height: 1.5;
   }
 }
