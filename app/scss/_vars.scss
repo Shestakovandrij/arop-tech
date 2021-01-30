@@ -7,14 +7,22 @@ $white-color: #fff;
   font-family: 'Lato-Black', sans-serif;
   font-weight: 900;
 }
-%lato-700  {
+
+%lato-700 {
   font-family: 'Lato-Bold', sans-serif;
   font-weight: 700;
 }
 
+%lato-600 {
+  font-family: 'Lato-SemiBold',
+    sans-serif;
+  font-weight: 600;
+}
+
+
 %monserrat-900 {
   font-family: 'Montserrat-Black',
-  sans-serif;
+    sans-serif;
   font-weight: 900;
 }
 
