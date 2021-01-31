@@ -71,13 +71,15 @@
     }
 
     @include r(768) {
-      margin-top: 60px;
+      margin-top: 80px;
       margin-right: 0;
+      margin-bottom: 30px;
     }
   }
 
   &__review-content {
     padding: 24px 88px 45px 40px;
+    margin-bottom: 20px;
   }
 
   &__text {
@@ -92,7 +94,6 @@
     justify-content: center;
     max-width: 277px;
     width: 100%;
-    max-height: 184px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -210,7 +211,7 @@
       left: 0;
       right: 0;
       top: 0;
-      background-color: #8a85818f;
+      background-color: #bfbdbf;
       display: block;
       text-align: center;
       z-index: 10;
@@ -280,6 +281,8 @@
 }
 
 .user-nav {
+  position: relative;
+  z-index: 100;
 
   &__link {
     background-color: #efefef;
