@@ -223,8 +223,8 @@
 
   @include r(768) {
     padding-bottom: 0;
+    margin: 0 10px;
   }
-
 
   &__inner {
     display: flex;
@@ -242,7 +242,6 @@
 
     @include r(575) {
       padding-bottom: 100px;
-      margin-bottom: 30px;
     }
   }
 
@@ -270,6 +269,7 @@
       color: $default-color;
       margin-top: 0;
       margin-bottom: 20px;
+      font-size: 22px;
     }
   }
 
